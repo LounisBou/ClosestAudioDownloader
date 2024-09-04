@@ -85,7 +85,6 @@ function downloadClosestAudioFromClick(x, y) {
     // Check if the audio element has a source
     const src = closestAudio.currentSrc || closestAudio.src;
     if (src) {
-        alert(`Downloading audio from: ${src}`);
         // Send a message to the background script to download the audio
         chrome.runtime.sendMessage({ audioSrc: src });
     } else {
