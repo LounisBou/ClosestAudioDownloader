@@ -6,21 +6,12 @@ Chrome extension to download the closest audio file to the current tab
 1. Clone the repository
 2. Open Chrome and go to `chrome://extensions/`
 3. Enable developer mode
-
-![Developer mode](https://i.imgur.com/1Z2Z2Zz.png)
-
 4. Click on `Load unpacked` and select the repository folder
-
-![Load unpacked](https://i.imgur.com/1Z2Z2Zz.png)
-
 5. The extension should now be installed
 
 ## Usage
 
 1. Right click on a page and select `Download closest audio`
-
-![Download closest audio](https://i.imgur.com/1Z2Z2Zz.png)
-
 2. The audio file should now be downloaded
 
 ## License
